@@ -1,0 +1,16 @@
+footer {
+  padding: 3.2% 5%; /* Adjust padding based on the percentage of the viewport width */
+  text-align: center;
+  background-color: var(--btn-color);
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 2.4rem; /* Set a fixed padding for smaller screens */
+  }
+
+  footer p {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}
